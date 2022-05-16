@@ -30,7 +30,7 @@ function search () {
     getWeatherData.append;
 }
 
-searchBtn.addEventListener("click", search);
+searchBtn.on("click", search);
 
 
 
